@@ -14,7 +14,7 @@ const Create = () => {
     const onSubmit = async(e)=>{
       e.preventDefault();
       try {
-                const res = await axios.post('https://64a67ac5096b3f0fcc7fdb58.mockapi.io/create_from',
+                const res = await axios.post('https://64da2ce1e947d30a260ae6c5.mockapi.io/React_Form_project',
                 {
                   name:Name,email:Email
                 }).then(()=>{

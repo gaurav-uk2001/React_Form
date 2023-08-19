@@ -22,7 +22,7 @@ const deleteHandler = async(id)=>{
 try {
   console.log(id);
   // can use only backtick while calling delete function
-  await axios.delete(`https://64a67ac5096b3f0fcc7fdb58.mockapi.io/create_from/${id}`)
+  await axios.delete(`https://64da2ce1e947d30a260ae6c5.mockapi.io/React_Form_project/${id}`)
   .then(()=>{
     getData();
   })

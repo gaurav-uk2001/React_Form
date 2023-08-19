@@ -11,7 +11,7 @@ const Read = () => {
 function getData() {
   axios.get(
     // can use apostrope('_') or backtick(`_`)
-    'https://64a67ac5096b3f0fcc7fdb58.mockapi.io/create_from'
+    'https://64da2ce1e947d30a260ae6c5.mockapi.io/React_Form_project'
     ).then((res)=>{
         console.log(res.data);
         setdata(res.data);

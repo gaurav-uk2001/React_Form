@@ -33,7 +33,7 @@ const Update = () => {
 
   const editElement = async (newId, newName, newEmail) => {
     try {
-      await axios.put(`https://64a67ac5096b3f0fcc7fdb58.mockapi.io/create_from/${newId}`, {
+      await axios.put(`https://64da2ce1e947d30a260ae6c5.mockapi.io/React_Form_project/${newId}`, {
         name: newName,
         email: newEmail,
       }).then(()=>{
